@@ -25,9 +25,9 @@ export const UserProvider = ({ children }) => {
   return <UserContext.Provider value={value}>{children}</UserContext.Provider>;
 };
 
-{
+
   /* <userContext.Provider><app /></userContext.Provider> */
-} //here app is the children
+ //here app is the children
 
 // the value holds the actual contextual value
 
